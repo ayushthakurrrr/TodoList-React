@@ -18,7 +18,7 @@ const ThemeBtn = () => {
 
     return (
         <div className='text-right pr-6'>
-            <button onClick={themebtnClick}>
+            <button onClick={themebtnClick} className='p-0.5 rounded-md border-2 border-gray-500 dark:border-gray-300'>
                 <img src={themeMode == 'dark' ? "/image.png" : "/download.png"} alt="Theme Mode" className='w-10 h-10' />
             </button>
         </div>
